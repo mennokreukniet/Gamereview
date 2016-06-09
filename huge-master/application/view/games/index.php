@@ -7,7 +7,7 @@
 
         <h3>All the games conveniently listed for you.</h3>
         <div>
-            Every game we have information from is listed here.
+            Every game we have information about is listed here.
         </div>
         <div>
             <table class="overview-table">
