@@ -17,9 +17,9 @@
 
                 </tr>
                 </thead>
-                <?php foreach ($this->$games as $game) { ?>
-                		<td><?= $games['id']; ?></td>
-                    	<td><?= $games['name']; ?></td>
+                <?php foreach ($this->games as $game) { ?>
+                		<td><?= $game->id; ?></td>
+                    	<td><?= $game->name; ?></td>
                 	<?php 
                 		}
                 	?>

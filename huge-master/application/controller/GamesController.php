@@ -8,8 +8,9 @@ class GamesController extends Controller {
 	}
 
 	public function index()
-	{
-		$this->View->render('games/index', array('games' => GamesModel::getAllGames())
-		);
-	}
+    {
+        $this->View->render('games/index', array(
+            'games' => GamesModel::getAllgames())
+        );
+    }
 }
