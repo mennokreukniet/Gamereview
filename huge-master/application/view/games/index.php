@@ -18,8 +18,10 @@
                 </tr>
                 </thead>
                 <?php foreach ($this->games as $game) { ?>
+                    <table>
                 		<td><?= $game->id; ?></td>
                     	<td><?= $game->name; ?></td>
+                    </table>
                 	<?php 
                 		}
                 	?>
