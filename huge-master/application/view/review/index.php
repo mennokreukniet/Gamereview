@@ -1,5 +1,5 @@
 <div class="container">
-		<h1></h1>
+		<h1><?php  ?></h1>
 		<div class="box">
 
         <!-- echo out the system feedback (error and success messages) -->
@@ -14,4 +14,5 @@
         </div>
 	</div>
 </div>
+
  

@@ -7,6 +7,8 @@ class ReviewController extends Controller {
 		parent::__construct();
 	}
 
+
+
 	public function index()
     {
         $this->View->render('review/index', array(

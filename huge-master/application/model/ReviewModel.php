@@ -6,7 +6,7 @@ class ReviewModel
 	{
 		$db = DatabaseFactory::getFactory()->getConnection();
 
-		$sql = "SELECT * FROM games, trailers, publisher, review";
+		$sql = "SELECT * FROM games";
 		$query = $db->prepare($sql);
 		$query->execute();
 		
