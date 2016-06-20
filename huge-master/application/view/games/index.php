@@ -6,21 +6,24 @@
         <div>
             Every game we have information about is listed here.
         </div>
+
         <div>
+        <?php if ($this->games) { ?>
             <table class="overview-table">
-                <thead>
-                <tr>
-                    <td>Game</td>
-                </tr>
-                </thead>
-                <?php foreach ($this->games as $game) { ?>
-                    <div class="game_block"
-                       <td> <img class="game_thumbnail" src="<?= $game->thumbnail; ?>">
-                        <?= $game->name; ?></td>
-                    </div>
-                    <?php 
-                        }
-                    ?>
+                <?php foreach ($this->games as $key => $value) { ?>
+                 
+                        <tr> 
+                            <td><img class="game_thumbnail" src="<?php echo $value->thumbnail; ?>"></td>
+                            <td><?php echo $value->name; ?></td>
+                            <td><a href="<?= Config::get('URL') . 'review/ShowGameInfo/' . $value->id; ?>">Review</a></td>
+                        </tr>
+                
+                <?php 
+                    }
+                ?>      
             </table>
+        <?php } else { ?>
+            <div>No games yet. Add some!</div>
+        <?php } ?>
         </div>
 </div>

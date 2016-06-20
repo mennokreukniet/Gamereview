@@ -4,10 +4,10 @@
 
         <!-- echo out the system feedback (error and success messages) -->
         <?php $this->renderFeedbackMessages(); ?>
-
-        <h3></h3>
-        <div>
-            Review title.
+        </div>
+        <h3><?php
+           foreach ($this->games as $key => $value) {
+            echo $value; } ?></h3>
         </div>
         <div>
             <table class="overview-table">

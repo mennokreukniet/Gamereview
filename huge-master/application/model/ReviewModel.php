@@ -2,15 +2,14 @@
 
 class ReviewModel
 {
-	public static function getAllReviews()
+	public static function getAllReviews($game_id)
 	{
 		$db = DatabaseFactory::getFactory()->getConnection();
 
-		$sql = "SELECT * FROM games";
+		$sql = "SELECT * FROM games WHERE id = $game_id";
 		$query = $db->prepare($sql);
 		$query->execute();
 		
-		$query->fetch();
-		return $query;
+		return $query->fetch();
     }
 }

@@ -10,7 +10,6 @@ class GamesModel
 		$query = $db->prepare($sql);
 		$query->execute();
 		
-		$query->fetch();
-		return $query;
+		return $query->fetchAll();
     }
 }

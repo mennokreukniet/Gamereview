@@ -17,9 +17,9 @@
 
 
         <!-- my account -->
-        
+        <div class="red_bar"></div>
     </div>
-    <div class="red_bar"></div>
+    
 
 </body>
 
