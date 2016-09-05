@@ -1,3 +1,4 @@
+<div class="content">
 <div class="container">
     <h1>UserController/changePassword</h1>
 
@@ -22,4 +23,5 @@
         </form>
 
     </div>
+</div>
 </div>

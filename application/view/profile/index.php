@@ -1,3 +1,4 @@
+<div class="content">
 <div class="container">
     <h1>ProfileController/index</h1>
     <div class="box">
@@ -7,8 +8,7 @@
 
         <h3>What happens here ?</h3>
         <div>
-            This controller/action/view shows a list of all users in the system. You could use the underlying code to
-            build things that use profile information of one or multiple/all users.
+            This controller/action/view shows a list of all users in the system.
         </div>
         <div>
             <table class="overview-table">
@@ -41,4 +41,5 @@
             </table>
         </div>
     </div>
+</div>
 </div>

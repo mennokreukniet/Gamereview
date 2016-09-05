@@ -1,3 +1,4 @@
+<div class="content">
 <div class="container">
     <h1>NoteController/index</h1>
     <div class="box">
@@ -41,4 +42,5 @@
                 <div>No notes yet. Create some !</div>
             <?php } ?>
     </div>
+</div>
 </div>

@@ -1,3 +1,4 @@
+<div class="content">
 <div class="container">
     <h1>Admin/index</h1>
 
@@ -54,4 +55,5 @@
             </table>
         </div>
     </div>
+</div>
 </div>

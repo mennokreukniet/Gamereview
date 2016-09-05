@@ -17,7 +17,7 @@ class GamesModel
     {
     	$db = DatabaseFactory::getFactory()->getConnection();
 
-		$sql = "SELECT * FROM games WHERE platform_id";
+		$sql = "SELECT * FROM games";
 		$query = $db->prepare($sql);
 		$query->execute();
 		

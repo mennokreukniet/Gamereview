@@ -1,3 +1,4 @@
+<div class="content">
 <div class="container">
     <h1>NoteController/edit/:note_id</h1>
 
@@ -19,4 +20,5 @@
             <p>This note does not exist.</p>
         <?php } ?>
     </div>
+</div>
 </div>

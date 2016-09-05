@@ -1,10 +1,11 @@
 <div class="content">
-<h1>Games</h1>
+    <h1>Games</h1>
     <!-- echo out the system feedback (error and success messages) -->
 
         <h3>All the games conveniently listed for you.</h3>
         <div>
             Every game we have information about is listed here.
+            </fieldset>
             <div class="dropdown">
                 <script>
                     /* When the user clicks on the button,
@@ -37,7 +38,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="gamestable">
         <?php if ($this->games) { ?>
             <table class="overview-table">
                 <?php foreach ($this->games as $key => $value) { ?>
@@ -47,7 +48,6 @@
                             <td><?php echo $value->name; ?></td>
                             <td><a href="<?= Config::get('URL') . 'review/ShowGameInfo/' . $value->id; ?>">Review</a></td>
                         </tr>
-                
                 <?php 
                     }
                 ?>      

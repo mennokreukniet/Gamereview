@@ -1,3 +1,4 @@
+<div class="content">
 <div class="container">
     <h1>UserController/editUserEmail</h1>
 
@@ -14,4 +15,5 @@
             <input type="submit" value="Submit" />
         </form>
     </div>
+</div>
 </div>

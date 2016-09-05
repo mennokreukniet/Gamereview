@@ -1,3 +1,4 @@
+<div class="content">
 <div class="container">
     <h1>UserController/showProfile</h1>
 
@@ -18,4 +19,5 @@
         </div>
         <div>Your account type is: <?= $this->user_account_type; ?></div>
     </div>
+</div>
 </div>

@@ -1,3 +1,4 @@
+<div class="content">
 <div class="container">
     <h1>Edit your avatar</h1>
 
@@ -25,4 +26,5 @@
         <h3>Delete your avatar</h3>
         <p>Click this link to delete your (local) avatar: <a href="<?php echo Config::get('URL'); ?>user/deleteAvatar_action">Delete your avatar</a>
     </div>
+</div>
 </div>
