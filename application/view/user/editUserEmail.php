@@ -10,7 +10,7 @@
 
         <form action="<?php echo Config::get('URL'); ?>user/editUserEmail_action" method="post">
             <label>
-                New email address: <input type="text" name="user_email" required />
+                <p class="input">New email address: <input type="text" name="user_email" required /></p>
             </label>
             <input type="submit" value="Submit" />
         </form>

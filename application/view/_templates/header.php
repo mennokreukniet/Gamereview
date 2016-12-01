@@ -22,8 +22,8 @@
 </body>
 <div class="dropdownbutton">
 <ul class="navigation">
-            <li <?php if (View::checkForActiveController($filename, "index")) { echo ' class="active" '; } ?> >
-                <a class="topmenu" href="<?php echo Config::get('URL'); ?>index/index">Index</a>
+            <li <?php if (View::checkForActiveController($filename, "Home")) { echo ' class="active" '; } ?> >
+                <a class="topmenu" href="<?php echo Config::get('URL'); ?>games/index">Home</a>
             
             <li <?php if (View::checkForActiveController($filename, "profile")) { echo ' class="active" '; } ?> >
                 <a class="topmenu" href="<?php echo Config::get('URL'); ?>profile/index">Profiles</a>

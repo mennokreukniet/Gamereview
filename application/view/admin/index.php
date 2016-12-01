@@ -14,7 +14,7 @@
             or suspend a user.
         </div>
         <div>
-            <table class="overview-table">
+            <table class="table2">
                 <thead>
                 <tr>
                     <td>Id</td>

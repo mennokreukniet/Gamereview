@@ -842,7 +842,12 @@ body{
 
 .overview-table{
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right:20px;
+	padding-right: 20px;
+}
+
+.table2{
+	padding-right: 50px;
 }
 
 img.float{
@@ -851,4 +856,8 @@ img.float{
 	margin-right: -700px;
 	margin-top: -25px;
 	margin-bottom: -25px;
+}
+
+.input{
+	padding-right:500px;
 }
